@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 #calc{
     display: flex;
     justify-content: center;
@@ -50,4 +54,19 @@ input[name="/"] {
 
 input[name="0"]{
     background: rgb(241, 223, 172);
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(45deg, rgb(66, 186, 241), rgb(77, 23, 77));
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+footer{
+    color:rgb(242, 189, 139);
+    font-size: 2em;
 }
