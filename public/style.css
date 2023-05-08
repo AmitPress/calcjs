@@ -30,7 +30,7 @@ form{
     height: 100%;
     background: rgb(242, 189, 139);
 }
-input[name="ON"]{
+input[name="POWER"]{
     background: rgb(245, 112, 112);
 }
 input[name="RESET"]{

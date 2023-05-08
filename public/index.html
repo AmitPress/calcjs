@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <!--Load Style-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="calc">
+        <form name="calc">
+            <div id="display"></div>
+            <div class="gridy">
+                <!--Row One-->
+                <input type="button" value="SQRT" name="SQRT" class="button">
+                <input type="button" value="EXP" name="EXP" class="button">
+                <input type="button" value="FACT" name="FACT" class="button">
+                <input type="button" value="RESET" name="RESET" class="button" onclick="return resset()">
+                <input type="button" value="ON" name="POWER" class="button" onclick="return power()">
+                <!--Row Two-->
+                <input type="button" value="1" name="1" class="button" onclick="return one()">
+                <input type="button" value="2" name="2" class="button" onclick="return two()">
+                <input type="button" value="3" name="3" class="button" onclick="return three()">
+                <input type="button" value="+" name="+" class="button" onclick="return add()">
+                <input type="button" value="-" name="-" class="button" onclick="return sub()">
+                <!--Row Three-->
+                <input type="button" value="4" name="4" class="button" onclick="return four()">
+                <input type="button" value="5" name="5" class="button" onclick="return five()">
+                <input type="button" value="6" name="6" class="button" onclick="return six()">
+                <input type="button" value="*" name="*" class="button" onclick="return mul()">
+                <input type="button" value="/" name="/" class="button" onclick="return div()">
+                <!--Row Four-->
+                <input type="button" value="7" name="7" class="button" onclick="return seven()">
+                <input type="button" value="8" name="8" class="button" onclick="return eight()">
+                <input type="button" value="9" name="9" class="button" onclick="return nine()">
+                <input type="button" value="0" name="0" class="button" onclick="return zero()">
+                <input type="button" value="=" name="=" class="button" onclick="return evl()">
+            </div>
+        </form>
+    </div>
+    
+    <!-- Load Script -->
+    <script src="index.js"></script>
+</body>
+</html>
